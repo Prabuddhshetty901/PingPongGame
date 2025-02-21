@@ -31,7 +31,6 @@ int main() {
 	SetTargetFPS(60);
 
 
-
 	ball.radius = 20;
 	ball.x = screen_width/2;
 	ball.y = screen_height / 2;
@@ -75,6 +74,7 @@ int main() {
 		//Clearing Background
 		ClearBackground(Dark_Green);
 
+		//Drawing
 		DrawRectangle(screen_width/2, 0,screen_width/2, screen_height, Green);
 		DrawCircle(screen_width/2, screen_height/2, 150, Light_Green);
 
